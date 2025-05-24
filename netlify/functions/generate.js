@@ -10,10 +10,13 @@ exports.handler = async (event, context) => {
         const traceryColors = [
             "ruby red", "fiery orange", "sun-kissed yellow", "verdant green", "sapphire blue"
         ];
+        const adjectives = ["happy", "bright", "quiet"];
+        const nouns = ["star", "river", "forest"];
 
         let rules = {
-            "origin": ["To be a #color# star."],
-            "color": traceryColors
+            "origin": ["To be a #adj# #nn#."],
+            "adj": () => RiTa.select(adjectives),
+            "nn": () => RiTa.select(nouns)
         };
 
         const grammar = tracery.createGrammar(rules);
