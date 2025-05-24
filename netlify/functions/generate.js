@@ -15,8 +15,8 @@ exports.handler = async (event, context) => {
 
         let rules = {
             "origin": ["To be a #adj# #nn#."],
-            "adj": () => RiTa.select(adjectives),
-            "nn": () => RiTa.select(nouns)
+            "adj": () => adjectives[Math.floor(myRng() * adjectives.length)],
+            "nn": () => nouns[Math.floor(myRng() * nouns.length)]
         };
 
         const grammar = tracery.createGrammar(rules);
