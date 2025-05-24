@@ -1,17 +1,12 @@
 {
+  "name": "to-be",
+  "version": "1.0.0",
   "dependencies": {
     "pdf-lib": "^1.17.1",
     "puppeteer": "^22.10.0",
     "qrcode": "^1.5.3",
-    "seedrandom": "^3.0.5"
-  }
-}
-{
-  "name": "to-be",
-  "version": "1.0.0",
-  "dependencies": {
+    "seedrandom": "^3.0.5",
     "rita": "^2.8.14",
-    "tracery-grammar": "^2.7.4",
-    "seedrandom": "^3.0.5"
+    "tracery-grammar": "^2.7.4"
   }
 }
