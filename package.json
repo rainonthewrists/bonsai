@@ -6,3 +6,12 @@
     "seedrandom": "^3.0.5"
   }
 }
+{
+  "name": "to-be",
+  "version": "1.0.0",
+  "dependencies": {
+    "rita": "^2.8.14",
+    "tracery-grammar": "^2.7.4",
+    "seedrandom": "^3.0.5"
+  }
+}
